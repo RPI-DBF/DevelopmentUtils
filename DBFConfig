@@ -1,0 +1,54 @@
+ resources
+
+# mixer
+mmix 0  1.000 -1.000  1.000 -1.000
+mmix 1  1.000 -1.000 -1.000  1.000
+mmix 2  1.000  1.000  1.000  1.000
+mmix 3  1.000  1.000 -1.000 -1.000
+
+# servo mix
+smix 0 0 0 100 0
+
+# servo
+servo 0 1000 2000 1613 100
+
+# feature
+feature PWM_OUTPUT_ENABLE
+
+# beeper
+
+# map
+map TAER
+
+# serial
+serial 0 64 115200 38400 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+
+# adjrange
+
+# rxrange
+
+# osd_layout
+
+# master
+set acc_hardware = MPU6000
+set mag_hardware = NONE
+set baro_hardware = BMP280
+set pitot_hardware = NONE
+set receiver_type = SERIAL
+set serialrx_provider = SBUS
+set model_preview_type = 3
+
+# profile
+profile 1
+
+
+# battery_profile
+battery_profile 1
